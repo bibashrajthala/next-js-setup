@@ -1,6 +1,5 @@
 import PrimaryLayout from '@/components/layouts/primary/PrimaryLayout';
 import SidebarLayout from '@/components/layouts/sidebar/SidebarLayout';
-import styles from '@/styles/Home.module.css';
 import { Inter } from '@next/font/google';
 import Head from 'next/head';
 import { NextPageWithLayout } from './page';
@@ -16,7 +15,9 @@ const Home: NextPageWithLayout = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>Home Page</main>
+      <main className="bg-gradient-to-r from-red-400 to-blue-500 text-xl">
+        Home Page again
+      </main>
     </>
   );
 };

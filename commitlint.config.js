@@ -1,5 +1,5 @@
 // build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-// ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+// ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) or add code on already built feature.
 // docs: Documentation only changes
 // feat: A new feature
 // fix: A bug fix
