@@ -23,7 +23,7 @@ const Home: NextPageWithLayout = () => {
 
 export default Home;
 
-Home.getLayout = (page) => {
+Home.getLayout = (page: React.ReactElement) => {
   return (
     <PrimaryLayout>
       <SidebarLayout />

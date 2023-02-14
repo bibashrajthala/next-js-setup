@@ -13,7 +13,7 @@ const About: NextPageWithLayout = () => {
 
 export default About;
 
-About.getLayout = (page) => {
+About.getLayout = (page: React.ReactElement) => {
   return (
     <PrimaryLayout>
       <SidebarLayout />
